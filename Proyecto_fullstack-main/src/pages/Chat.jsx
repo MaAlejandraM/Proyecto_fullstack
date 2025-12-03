@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 import { useAuth } from '../auth/AuthContext';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API = "http://3.239.97.16:8080";
+const API = "http://52.200.198.23:8080";
 
 // --- Configuración Gemini ---
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;

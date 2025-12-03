@@ -13,7 +13,7 @@ function Diario() {
   // Estado para controlar cuántas se muestran (Empezamos con 3)
   const [visibleCount, setVisibleCount] = useState(3);
 
-  const API = "http://3.239.97.16:8080";
+  const API = "http://52.200.198.23:8080";
 
   // -------------------------------------------------------------------
   // Cargar estados de ánimo

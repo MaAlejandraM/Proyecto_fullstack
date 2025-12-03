@@ -7,7 +7,7 @@ export default function Emergencia() {
   const [mensaje, setMensaje] = useState("");
   const [loading, setLoading] = useState(true);
 
-  const API = "http://3.239.97.16:8080";
+  const API = "http://52.200.198.23:8080";
 
   useEffect(() => {
     const cargarContactos = async () => {

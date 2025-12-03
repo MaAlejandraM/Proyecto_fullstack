@@ -1,0 +1,66 @@
+.help-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.help-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+  width: 290px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  z-index: 999;
+  animation: fadeIn 0.25s ease;
+}
+
+.help-panel h5 {
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.help-panel p,
+.help-panel ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+}
+
+.help-panel ul {
+  list-style: disc inside;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.btn-close-help {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

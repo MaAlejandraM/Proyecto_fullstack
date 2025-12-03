@@ -21,7 +21,7 @@ export default function Perfil() {
   // Estado para el Diario
   const [ultimasEntradas, setUltimasEntradas] = useState([]);
 
-  const API_BASE = "http://3.239.99.124:8080/api";
+  const API_BASE = "http://3.239.97.16:8080/api";
 
   
   // 1. CARGAR DATOS AL INICIAR

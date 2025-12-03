@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Card, Button } from 'react-bootstrap'; 
 
+
+
 export default function Tecnicas() {
   
   const [breathState, setBreathState] = useState('idle'); 
